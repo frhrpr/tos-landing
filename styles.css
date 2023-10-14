@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px 10%;
+}
+
+.hero strong {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+button, .call {
+    background-color: #3882F6;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero img {
+    flex: 1;
+    min-width: 200px;
+    border-radius: 32px;
+}
+
+.awesome {
+    flex: 1;
+}
+
+button {
+    text-align: center;
+    border-radius: 4px;
+    color: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    padding: 8px 32px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-images img {
+    border-radius: 8px;
+    border: 6px solid #3882F6;
+}
+
+.image-box p {
+    text-align: center;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 64px 20%;
+}
+
+.quote q {
+    font-size:36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    text-decoration: none;
+    quotes: none;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: 700;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 10%;
+    border-radius: 16px;
+    padding: 32px 64px;
+    color:#F9FAF8;
+    align-items: center;
+}
+
+.call-left {
+    margin: auto 0px;
+    font-size: 24px;
+}
+
+.call-left strong {
+    font-size: 32px;
+}
+
+.call button {
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+}
